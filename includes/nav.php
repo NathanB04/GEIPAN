@@ -6,10 +6,14 @@
                 if(isset($_SESSION['login']) && $_SESSION['login'] === true) {
                     echo "<li><a href=\"index.php?page=logout\">Logout</a></li>";
                     echo "<li><a href=\"index.php?page=account\">Mon compte</a></li>";
+                    echo "<li><a href=\"index.php?page=temoignage\">Deposer temoignage</a></li>";
+
                 }
                 else {
                     echo "<li><a href=\"index.php?page=login\">Login</a></li>";
                     echo "<li><a href=\"index.php?page=inscription\">Inscription</a></li>";
+                    echo "<li><a href=\"index.php?page=temoignage\">Deposer temoignage</a></li>";
+
                 }
             ?>
             <?php
