@@ -67,6 +67,7 @@ if (isset($_POST['temoignage'])) {
         $messageErreur .= "</ul>";
 
         echo $messageErreur;
+        include 'frmInscription.php';
     }
 } else {
     echo "<h2>Merci de renseigner le formulaire&nbsp;:</h2>";
