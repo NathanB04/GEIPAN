@@ -5,7 +5,7 @@ class Query
     private string $serverName = "localhost";
     private string $userName = "root";
     private string $database = "geipan";
-    private string $userPassword = "";
+    private string $userPassword = "root";
     private object $connexion;
 
     public function __construct()
